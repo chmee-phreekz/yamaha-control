@@ -52,7 +52,7 @@ Befehlskonsole mit Antwortfenster.
 Sitzung (Fader/ON, EQ, Dynamics, Konsolenbefehle, Preset-Aktionen, Demo) –
 reines Status-Polling wird nicht mitgeloggt.
 
-![outputs](./_screenshots/yamaha-control_outputs.png)
+![debug and presets](./_screenshots/yamaha-control_presets_debug.png)
 
 ## Setup
 
@@ -131,7 +131,6 @@ aus – der Bestätigungsdialog ist reine Frontend-Logik, ein direkter API-Aufru
 vertrauenswürdigen lokalen Netzwerk aus – nicht ohne Weiteres ins Internet
 exponieren.
 
-![debug and presets](./_screenshots/yamaha-control_presets_debug.png)
 
 ## Änderungen
 
