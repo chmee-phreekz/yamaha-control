@@ -7,6 +7,10 @@ das netzwerkbasierte **SCP/RCP-Protokoll** (TCP, Port 49280, textbasiert).
 Kein Framework, kein Dauer-Prozess – reines PHP/HTML/JS/CSS, SQLite nur als
 Cache und für Presets als JSON-Dateien.
 
+Erstellt mit Claude Sonnet 5.
+
+![overview](./_screenshots/yamaha-control_overview.png)
+
 ## Funktionsumfang
 
 **Eingänge (32 Mono + 8 Stereo) und Ausgänge (16 Mix + 8 Matrix)**
@@ -47,6 +51,8 @@ Befehlskonsole mit Antwortfenster.
 **Log** (Header-Button): zeigt die letzten 24 tatsächlichen Aktionen dieser
 Sitzung (Fader/ON, EQ, Dynamics, Konsolenbefehle, Preset-Aktionen, Demo) –
 reines Status-Polling wird nicht mitgeloggt.
+
+![outputs](./_screenshots/yamaha-control_outputs.png)
 
 ## Setup
 
@@ -124,6 +130,8 @@ aus – der Bestätigungsdialog ist reine Frontend-Logik, ein direkter API-Aufru
 **Kein Auth-Schutz.** Wie der Rest der App geht diese API von einem
 vertrauenswürdigen lokalen Netzwerk aus – nicht ohne Weiteres ins Internet
 exponieren.
+
+![debug and presets](./_screenshots/yamaha-control_presets_debug.png)
 
 ## Änderungen
 
